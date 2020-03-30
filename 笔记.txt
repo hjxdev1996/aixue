@@ -1,0 +1,3 @@
+这是一个商场项目，是使用的springboot和springcloud进行搭建开发的一个系统，
+使用springcloud进行微服务的治理框架，运行使用springboot更加方便快捷进行开发，
+springcloud主要是使用了五大部分，注册中心eureka，服务调用 ribbon，路由网关zuul，配置中心config，Hystrix熔断器   五大部分
