@@ -1,0 +1,19 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://www.eureka-7001.com:7001/eureka/ #这里是另一个中心的地址
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hjxdev1996/aixue_config.git   #git地址
+          username: hjxdev1996
+          password: hejiaxing197128
+
